@@ -1,0 +1,29 @@
+.about-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  background-color: lightskyblue;
+  height: 100vh;
+}
+
+.about-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.about-me {
+  height: 80vh;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

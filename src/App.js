@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Landing from './Landing/Landing';
+import ProjectLinus from './Linus/Linus';
+import ProjectSpanimal from './Spanimal/Spanimal';
+import ProjectQtrail from './Qtrail/Qtrail'
+import About from './About/About';
+import Contact from './Contact/Contact';
+import Header from './header/header'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  componentDidMount() {
+    window.addEventListener('scroll', this.scrollFunction)
+  }
+
+  scrollFunction = () => {
+    const header = <Header />
+    const sticky = header.offsetTop;
+    console.log('header: ', header)
+    if(window.pageYOffset > sticky) {
+      header.classList.add('sticky')
+      header.classList.remove('hidden')
+    } else {
+      header.classList.remove('sticky')
+      header.classList.add('hidden')
+    }
+  }
+  
+  render() {
+    return (
+      <div className="App">
+        <main>
+          <Landing />
+          <About />
+          <div className='projects snap'>
+            <ProjectLinus />
+            <ProjectSpanimal />
+            <ProjectQtrail />
+          </div>
+          <Contact />
+        </main>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,33 @@
+.linus-section {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 100px; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linus-text {
+  padding: 20px;
+}
+
+/*overflow not working correctly... maybe it will work when img are in*/
+.screenshots {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  width: 90vw;
+  height: 40vh;
+  border: 1px solid red;
+  overflow-x: scroll;
+  margin: 20px;
+}
+
+.screenshots p {
+  height: 300px;
+  width: 150px;
+  border: 1px dashed black;
+  margin: 0 5px;
+}

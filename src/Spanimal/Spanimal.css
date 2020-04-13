@@ -1,0 +1,14 @@
+.spanimal-section {
+  width: 100%;
+  height: 100vh;
+  background-color: steelblue;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 100px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.spanimal-text {
+  padding: 20px;
+}
