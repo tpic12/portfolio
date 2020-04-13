@@ -15,3 +15,9 @@ html {
   flex-direction: row;
   scroll-snap-type: x mandatory;
 }
+
+.about-section, .linus-section,
+.spanimal-section, .qtrail-section,
+.contact-section {
+  padding-top: 5vh;
+}

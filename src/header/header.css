@@ -1,5 +1,47 @@
-.header-section {
-  height: 100px;
+.hidden {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0.5rem 2.5rem; */
+  position: absolute;
+  z-index: 1;
   width: 100vw;
-  background-color: teal;
+  color: white;
+}
+
+.navbar-sticky {
+  background-color: firebrick;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 1px #222;
+  animation: moveDown 0.5s ease-in-out;
+}
+
+.navbar--link {
+  display: flex;
+  list-style: none;
+}
+
+.navbar--link-item {
+  margin: 0.4rem 1rem 0 0;
+  padding: 0 0.3rem;
+  cursor: pointer;
+}
+
+.navbar--logo-holder {
+  margin-left: 20px;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
 }

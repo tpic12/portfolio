@@ -1,47 +1,51 @@
-import React, { Component } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Landing from './Landing/Landing';
-import ProjectLinus from './Linus/Linus';
-import ProjectSpanimal from './Spanimal/Spanimal';
-import ProjectQtrail from './Qtrail/Qtrail'
-import About from './About/About';
-import Contact from './Contact/Contact';
 import Header from './header/header'
 import './App.css';
 
-class App extends Component {
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollFunction)
-  }
+function App()  {
+  useEffect(() => {
+    return () => {
+      window.removeEventListener("scroll", () => handleScroll);
+    };
+  }, []);
 
-  scrollFunction = () => {
-    const header = <Header />
-    const sticky = header.offsetTop;
-    console.log('header: ', header)
-    if(window.pageYOffset > sticky) {
-      header.classList.add('sticky')
-      header.classList.remove('hidden')
-    } else {
-      header.classList.remove('sticky')
-      header.classList.add('hidden')
-    }
-  }
-  
-  render() {
+  const [isSticky, setSticky] = useState(false);
+
+  const stickyRef = useRef(null);
+  const handleScroll = () => {
+    window.pageYOffset > stickyRef.current.getBoundingClientRect().bottom
+      ? setSticky(true)
+      : setSticky(false);
+  };
+
+
+  const debounce = (func, wait = 10, immediate = true) => {
+    let timeOut;
+    return () => {
+      let context = this,
+        args = arguments;
+      const later = () => {
+        timeOut = null;
+        if (!immediate) func.apply(context, args);
+      };
+      const callNow = immediate && !timeOut;
+      clearTimeout(timeOut);
+      timeOut = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  };
+
+  window.addEventListener("scroll", debounce(handleScroll));
+
     return (
       <div className="App">
         <main>
-          <Landing />
-          <About />
-          <div className='projects snap'>
-            <ProjectLinus />
-            <ProjectSpanimal />
-            <ProjectQtrail />
-          </div>
-          <Contact />
+          <Header sticky={isSticky}/>
+          <Landing stickyRef={stickyRef}/>
         </main>
       </div>
     );
-  }
 }
 
 export default App;

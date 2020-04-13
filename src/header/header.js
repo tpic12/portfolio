@@ -1,22 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './header.css';
 
-class Header extends Component {
-  render() {
-    return (
-      <section className="header-section">
-        <header className='header'>
-          <h1>Taylor</h1><br/><h2>Piccarreto</h2>
-          <div className='burger'>
-            <p>+</p>
-          </div>
-        </header>
-        <main>
-          
-        </main>
-      </section>
-    );
+const Header = ({sticky}) => {
+  const name = () => {
+    return '{tP}'
   }
+    return (
+      <nav className={sticky ? "navbar navbar-sticky" : "hidden"}>
+         <div className="navbar--logo-holder">
+          <h1>{name()}</h1>
+        </div>
+        <ul className="navbar--link">
+          <li className="navbar--link-item">About</li>
+          <li className="navbar--link-item">Projects</li>
+          <li className="navbar--link-item">Contact</li>
+        </ul>
+      </nav>
+    );
 }
+
 
 export default Header;
