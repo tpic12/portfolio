@@ -2,6 +2,10 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .snap {
   scroll-snap-align: center;
   scroll-snap-stop: always;

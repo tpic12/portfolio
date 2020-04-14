@@ -8,14 +8,14 @@ import './Landing.css';
 
 const Landing = ({stickyRef}) => {
   const logo = () => {
-    return '</>'
+    return '{tP}'
   }
     return (
       <>
       <section className='landing-section'>
         <div className='landing-div snap' ref={stickyRef}>
           <div className='name-tag-div'>
-            <h1>Taylor<br />Piccarreto</h1>
+            <h1><span className='thin'>Taylor</span><br /><span className='bold'>Piccarreto</span></h1>
             <p>Hi, I’m Taylor, and I like my applications like I like my pancakes: Fullstack and no bugs.</p>
           </div>
           <div className='landing-circle'>

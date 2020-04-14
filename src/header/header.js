@@ -6,7 +6,7 @@ const Header = ({sticky}) => {
     return '{tP}'
   }
     return (
-      <nav className={sticky ? "navbar navbar-sticky" : "hidden"}>
+      <nav className={sticky ? "navbar navbar-sticky" : "navbar navbar-hidden"}>
          <div className="navbar--logo-holder">
           <h1>{name()}</h1>
         </div>

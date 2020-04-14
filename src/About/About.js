@@ -21,7 +21,6 @@ class About extends Component {
                 learned and apply them in non-conventional ways, to view a problem from my 
                 point of view, the Taylor v4.0 view. 
             </p>
-        
         <div className='about-circle'>
             <span className='pic'>picture of me here</span>
         </div>

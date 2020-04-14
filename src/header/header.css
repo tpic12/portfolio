@@ -1,7 +1,3 @@
-.hidden {
-  display: none;
-}
-
 .navbar {
   display: flex;
   align-items: center;
@@ -13,8 +9,13 @@
   color: white;
 }
 
+.navbar-hidden {
+  animation: moveUp 0.5s ease-in-out;
+  display: none;
+}
+
 .navbar-sticky {
-  background-color: firebrick;
+  background-color: rgb(62, 72, 117);
   position: fixed;
   top: 0;
   left: 0;
@@ -31,6 +32,7 @@
   margin: 0.4rem 1rem 0 0;
   padding: 0 0.3rem;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .navbar--logo-holder {
@@ -43,5 +45,14 @@
   }
   to {
     transform: translateY(0rem);
+  }
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(-5rem);
   }
 }
