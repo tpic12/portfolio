@@ -1,21 +1,43 @@
-import React, { Component } from 'react';
-import './Linus.css';
+import React, { Component } from "react";
+import "./Linus.css";
 
 class Linus extends Component {
   render() {
     return (
-      <section className='linus-section snap'>
-        <div className='linus-text'>
+      <section className="linus-section snap">
+        <div className="linus-text">
           <h2>Linus</h2>
-          <p>Linus is a personal bartender for your home. With Linus you can add your favorite and current spirits in the liquor cabinet to your digital cabinet, and Linus will show you what cocktails you can make with your spirits and how! You will also be able to search for recipes by spirit type and make a shortlist of your favorite ones to try later. 
+          <p>
+            Linus is a personal bartender for your home. With Linus you can add
+            your favorite and current spirits in the liquor cabinet to your
+            digital cabinet, and Linus will show you what cocktails you can make
+            with your spirits and how! You will also be able to search for
+            recipes by spirit type and make a shortlist of your favorite ones to
+            try later.
           </p>
         </div>
-        <div className='links'>
-          <p>Live Link | GitHub</p>
+        <div className="links">
+          <p>
+            <a
+              href="https://linus-ten.now.sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Link
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://github.com/tpic12/Linus-Client"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </p>
         </div>
-        <div className='tech-stack'>
+        <div className="tech-stack">
           <h3>Technology Used:</h3>
-          <ul className='tech-stack-list'>
+          <ul className="tech-stack-list">
             <li>React</li>
             <li>Express</li>
             <li>Javascript</li>
@@ -23,7 +45,7 @@ class Linus extends Component {
             <li>PostgreSQL</li>
           </ul>
         </div>
-        <div className='screenshots'>
+        <div className="screenshots">
           <p>screenshots here</p>
           <p>screenshots here</p>
           <p>screenshots here</p>

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-snap-type: y mandatory;
 }
@@ -7,7 +11,7 @@ body {
 }
 
 .snap {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   scroll-snap-stop: always;
 }
 
@@ -20,8 +24,9 @@ body {
   scroll-snap-type: x mandatory;
 }
 
-.about-section, .linus-section,
-.spanimal-section, .qtrail-section,
-.contact-section {
-  padding-top: 5vh;
+
+.linus-section,
+.spanimal-section,
+.qtrail-section {
+  padding-top: 50px;
 }

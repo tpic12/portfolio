@@ -1,0 +1,33 @@
+.project-landing-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 100px; */
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 50px; */
+}
+
+.project-landing-title {
+  width: 100vw;
+  height: 75vh;
+  color: rgb(62, 72, 117);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(62, 72, 117);
+  border-radius: 0 400px 400px 0;
+}
+
+.project-landing-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  /* border: 3px solid black; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

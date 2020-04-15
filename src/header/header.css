@@ -7,6 +7,7 @@
   z-index: 1;
   width: 100vw;
   color: white;
+  height: 64px;
 }
 
 .navbar-hidden {
@@ -26,13 +27,25 @@
 .navbar--link {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  align-items: center;
+  width: 250px;
 }
 
 .navbar--link-item {
-  margin: 0.4rem 1rem 0 0;
-  padding: 0 0.3rem;
+  margin: 0;
+  padding: 0 10px;
   cursor: pointer;
   font-size: 18px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar--link-item:hover {
+  background-color: rgb(168, 123, 72);
 }
 
 .navbar--logo-holder {
@@ -43,6 +56,7 @@
   from {
     transform: translateY(-5rem);
   }
+
   to {
     transform: translateY(0rem);
   }
@@ -52,6 +66,7 @@
   from {
     transform: translateY(0rem);
   }
+
   to {
     transform: translateY(-5rem);
   }

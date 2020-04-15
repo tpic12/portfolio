@@ -3,13 +3,13 @@
 }
 
 .landing-section {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   /* margin-top: 100px; */
   justify-content: center;
-  align-items: center;
-  background-color: rgb(62, 72, 117);
+  align-items: flex-start;
+  background-color: white;
 }
 
 .landing-div {
@@ -18,8 +18,9 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 75vh;
-  background-color: white;
+  height: 90vh;
+  background-color: rgb(62, 72, 117);
+  border-radius: 0 0 200px 200px;
 }
 
 .landing-circle {
@@ -27,7 +28,7 @@
   width: 200px;
   height: 200px;
   /* border: 3px solid black; */
-  background-color: rgb(62,72,117);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,11 +37,12 @@
 .logo {
   font-size: 90px;
   font-weight: 500;
-  color: white;
+  color: rgb(62, 72, 117);
 }
 
 .name-tag-div {
   width: 75vw;
+  color: white;
 }
 
 .name-tag-div h1 {
