@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import { Element } from "react-scroll";
 import "./About.css";
 
 class About extends Component {
   render() {
     return (
-      <section className="about-section">
+      <section id="about-section" className="about-section">
         <div className="about-me snap">
           <p>
             {" "}

@@ -32,7 +32,7 @@ const Landing = ({ stickyRef }) => {
         </div>
       </section>
       <About />
-      <div className="projects snap">
+      <div id="projects-section" className="projects snap">
         <ProjectLanding />
         <ProjectQtrail />
         <ProjectLinus />

@@ -4,7 +4,7 @@ import "./Contact.css";
 class Contact extends Component {
   render() {
     return (
-      <section className="contact-section snap">
+      <section id="contact-section" className="contact-section snap">
         <div className="contact-div">
           <h3>
             <span className="thin">It's dangerous to go alone! </span>

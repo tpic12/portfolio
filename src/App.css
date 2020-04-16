@@ -4,15 +4,16 @@
 
 html {
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .snap {
   scroll-snap-align: start;
-  scroll-snap-stop: always;
+  scroll-snap-stop: normal;
 }
 
 .projects {
@@ -23,7 +24,6 @@ body {
   flex-direction: row;
   scroll-snap-type: x mandatory;
 }
-
 
 .linus-section,
 .spanimal-section,
