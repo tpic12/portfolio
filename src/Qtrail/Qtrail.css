@@ -1,6 +1,21 @@
+@font-face {
+  font-family: "PixelFont";
+  src: local("PixelFont"), url("../Fonts/PixelFont.ttf") format("truetype");
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(62, 72, 117);
+}
+
+.links a:hover {
+  font-weight: 700;
+  color: rgb(168, 123, 72);
+}
+
 .qtrail-section {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: white;
   color: rgb(62, 72, 117);
   display: flex;
@@ -11,13 +26,51 @@
   padding: 0 15px;
 }
 
-.qtrail-text {
-  padding: 20px 20px 0 20px;
+.qtrail-section h2 {
+  padding-top: 65px;
+  font-family: "PixelFont";
+  margin-bottom: 0;
 }
 
-.tech-stack h3 {
+.links p {
+  padding: 0;
+}
+
+.qtrail-circle {
+  width: 100vw;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid white;
+  border-radius: 200px;
+  margin: 0 10px;
+  background-color: rgb(62, 72, 117);
+  color: white;
+  text-align: center;
+  padding: 0 28px;
+}
+
+.qtrail-circle button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.qtrail-circle img {
+  width: 100px;
+}
+
+.tech-logos {
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .tech-stack h3 {
   column-span: all;
-  /* text-align: center; */
   margin-bottom: 0;
 }
 
@@ -34,19 +87,6 @@
   list-style-type: none;
   border-left: thin solid rgb(62, 72, 117);
   padding-left: 10px;
-  /* margin: 0 auto; */
-
-}
-
-.links a {
-  text-decoration: none;
-  color: rgb(62, 72, 117);
-}
-
-.links a:hover {
-  font-weight: 700;
-  color: rgb(168, 123, 72);
-  ;
-}
+} */
 
 /*rgb(168, 123, 72) -- gold*/

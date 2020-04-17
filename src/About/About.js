@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Element } from "react-scroll";
 import "./About.css";
 
 class About extends Component {

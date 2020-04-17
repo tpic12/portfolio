@@ -19,6 +19,9 @@
   align-items: center;
   background-color: rgb(62, 72, 117);
   border-radius: 0 400px 400px 0;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
 }
 
 .project-landing-circle {

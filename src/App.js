@@ -1,9 +1,41 @@
-import React, { useEffect, useRef, useState } from 'react';
-import Landing from './Landing/Landing';
-import Header from './header/header'
-import './App.css';
+import React, { useEffect, useRef, useState } from "react";
+import Landing from "./Landing/Landing";
+import Header from "./header/header";
+import "./App.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faGithub,
+  faLinkedin,
+  faJsSquare,
+  faReact,
+  faNodeJs,
+  faCss3,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faAt,
+  faChevronDown,
+  faChevronRight,
+  faChevronLeft,
+  faDatabase,
+  faTimesCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
-function App()  {
+library.add(
+  faGithub,
+  faLinkedin,
+  faAt,
+  faChevronDown,
+  faChevronRight,
+  faChevronLeft,
+  faJsSquare,
+  faDatabase,
+  faReact,
+  faNodeJs,
+  faCss3,
+  faTimesCircle
+);
+
+function App() {
   useEffect(() => {
     return () => {
       window.removeEventListener("scroll", () => handleScroll);
@@ -18,7 +50,6 @@ function App()  {
       ? setSticky(true)
       : setSticky(false);
   };
-
 
   const debounce = (func, wait = 10, immediate = true) => {
     let timeOut;
@@ -38,14 +69,27 @@ function App()  {
 
   window.addEventListener("scroll", debounce(handleScroll));
 
-    return (
-      <div className="App">
-        <main>
-          <Header sticky={isSticky}/>
-          <Landing stickyRef={stickyRef}/>
-        </main>
-      </div>
-    );
+  return (
+    <div className="App">
+      <main>
+        <Header sticky={isSticky} />
+        <Landing stickyRef={stickyRef} />
+      </main>
+    </div>
+  );
 }
 
 export default App;
+/**
+ * faGitHub,
+  faLinkedin,
+  faAt,
+  faChevronDown,
+  faChevronRight,
+  faChevronLeft,
+  faJsSquare,
+  faDatabase,
+  faReact,
+  faNodeJs,
+  facss3,
+ */
