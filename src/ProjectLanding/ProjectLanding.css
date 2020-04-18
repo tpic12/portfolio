@@ -65,4 +65,9 @@
   .project-landing-title svg {
     left: 200px;
   }
+
+  .project-landing-circle {
+    width: 400px;
+    border-radius: 200px;
+  }
 }
