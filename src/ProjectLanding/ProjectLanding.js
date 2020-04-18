@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./ProjectLanding.css";
 
 class ProjectLanding extends Component {
@@ -9,6 +10,7 @@ class ProjectLanding extends Component {
           <div className="project-landing-circle">
             <h2>Projects</h2>
           </div>
+          <FontAwesomeIcon icon="chevron-right" size="lg" />
         </div>
       </section>
     );

@@ -8,11 +8,11 @@ class About extends Component {
         <div className="about-me snap">
           <p>
             {" "}
-            &emsp; An NYC transplant from upstate New York, I came here for a
-            job on Wall Street, enjoyed life behind a bar more, currently trying
-            to get out of the said bar. Now, a recent graduate from Thinkful’s
-            Engineering Immersion, I am looking to start a new career as a
-            developer and professional bug taker-outer (digital-kind only).
+            &emsp; A NYC transplant from upstate New York, I came here for a job
+            on Wall Street, enjoyed life behind a bar more, and then decided
+            said bar-life was no longer for me. Now, a recent graduate from
+            Thinkful’s Engineering Immersion, I am looking to start a new career
+            as a developer and professional bug taker-outer (digital-kind only).
             <br />
             <br />
             &emsp;I have always enjoyed solving problems, from how to add

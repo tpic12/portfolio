@@ -5,6 +5,7 @@ import ProjectQtrail from "../Qtrail/Qtrail";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import ProjectLanding from "../ProjectLanding/ProjectLanding";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Landing.css";
 
 const Landing = ({ stickyRef }) => {
@@ -29,6 +30,7 @@ const Landing = ({ stickyRef }) => {
           <div className="landing-circle">
             <span className="logo">{logo()}</span>
           </div>
+          <FontAwesomeIcon icon="chevron-down" size="lg" />
         </div>
       </section>
       <About />
