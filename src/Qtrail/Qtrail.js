@@ -24,7 +24,7 @@ class Qtrail extends Component {
   render() {
     const { slideshow } = this.state;
     return (
-      <section className="qtrail-section snap">
+      <section id="qtrail-section" className="qtrail-section snap">
         {slideshow && (
           <Slides
             slideshow={this.handlesSlideshow}
@@ -53,7 +53,7 @@ class Qtrail extends Component {
         </div>
         <div className="qtrail-circle">
           <button onClick={this.handlesSlideshow}>
-            <img src={Logo} alt="quaran trail - stay home" />
+            {!slideshow && <img src={Logo} alt="quaran trail - stay home" />}
           </button>
           <p>
             In this playful and lighthearted game, the world was struck with an

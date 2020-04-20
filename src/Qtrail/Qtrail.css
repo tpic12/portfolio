@@ -10,7 +10,7 @@
 
 .links a:hover {
   font-weight: 700;
-  color: rgb(168, 123, 72);
+  color: rgb(181, 133, 78);
 }
 
 .qtrail-section {
@@ -43,7 +43,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 7px solid white;
+  border: 7px solid #ededed;
   border-radius: 200px;
   margin: 0 10px;
   background-color: rgb(62, 72, 117);
@@ -60,6 +60,9 @@
 
 .qtrail-circle img {
   width: 100px;
+  animation: pulse 2s linear;
+  animation-iteration-count: infinite;
+  z-index: -1;
 }
 
 .tech-logos {
@@ -67,6 +70,20 @@
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* .tech-stack h3 {

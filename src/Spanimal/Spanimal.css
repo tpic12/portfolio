@@ -5,7 +5,7 @@
 
 .links a:hover {
   font-weight: 700;
-  color: rgb(168, 123, 72);
+  color: rgb(181, 133, 78);
 }
 
 .spanimal-section {
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 7px solid white;
+  border: 7px solid #ededed;
   border-radius: 200px;
   margin: 0 10px;
   background-color: rgb(62, 72, 117);
@@ -55,8 +55,8 @@
 
 .spanimal-circle img {
   width: 100px;
-  /* background-color: white;
-  border-radius: 50%; */
+  animation: pulse 2s linear;
+  animation-iteration-count: infinite;
 }
 
 .tech-logos {

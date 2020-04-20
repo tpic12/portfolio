@@ -52,7 +52,7 @@ class Spanimal extends Component {
         </div>
         <div className="spanimal-circle">
           <button onClick={this.handlesSlideshow}>
-            <img src={Logo} alt="spanimal logo" />
+            {!slideshow && <img src={Logo} alt="spanimal logo" />}
           </button>
           <p>
             A Learning Language platform that teaches the Spanish translations

@@ -20,12 +20,12 @@ class Contact extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
+                <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
             </li>
             <li>
               <a href="mailto:tpic12@gmail.com">
-                <FontAwesomeIcon icon="at" size="2x" />
+                <FontAwesomeIcon icon="at" />
               </a>
             </li>
             <li>
@@ -34,7 +34,7 @@ class Contact extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
           </ul>

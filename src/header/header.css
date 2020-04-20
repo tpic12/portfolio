@@ -80,7 +80,7 @@
 }
 
 #menuToggle a:hover {
-  color: rgb(168, 123, 72);
+  color: #ededed;
 }
 
 #menuToggle input {
@@ -122,18 +122,18 @@
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span {
+#menuToggle input:checked~span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: rgb(62, 72, 117);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3) {
+#menuToggle input:checked~span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2) {
+#menuToggle input:checked~span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
@@ -148,7 +148,7 @@
   flex-direction: column;
   justify-content: center;
 
-  background: #ededed;
+  background: rgb(181, 133, 78);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -165,7 +165,7 @@
   text-align: center;
 }
 
-#menuToggle input:checked ~ ul {
+#menuToggle input:checked~ul {
   transform: none;
 }
 
@@ -191,6 +191,6 @@
   }
 
   .navbar--link-item:hover {
-    background-color: rgb(168, 123, 72);
+    background-color: rgb(181, 133, 78);
   }
 }

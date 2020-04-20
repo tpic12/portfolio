@@ -23,7 +23,7 @@ class Linus extends Component {
   render() {
     const { slideshow } = this.state;
     return (
-      <section className="linus-section snap">
+      <section id="linus-section" className="linus-section snap">
         {slideshow && (
           <Slides
             slideshow={this.handlesSlideshow}
@@ -52,7 +52,7 @@ class Linus extends Component {
         </div>
         <div className="linus-circle">
           <button onClick={this.handlesSlideshow}>
-            <img src={Logo} alt="linus logo" />
+            {!slideshow && <img src={Logo} alt="linus logo" />}
           </button>
           <p>
             Linus is a personal bartender for your home. With Linus you can add

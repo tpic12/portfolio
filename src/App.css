@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: "Josefin Sans", sans-serif;
+  background-color: #ededed;
 }
 
 .snap {
@@ -29,4 +30,5 @@ body {
 .spanimal-section,
 .qtrail-section {
   padding-top: 50px;
+  background-color: #ededed;
 }

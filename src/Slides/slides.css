@@ -26,6 +26,8 @@
 
 .slides-main img {
   border: 1px solid black;
+  position: relative;
   max-height: 600px;
-  max-width: 98%
+  max-width: 98%;
+  /* z-index: auto; */
 }
