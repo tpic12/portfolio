@@ -41,12 +41,7 @@ class Qtrail extends Component {
           <button onClick={this.props.slideshow}>
             <FontAwesomeIcon icon="times-circle" size="lg" />
           </button>
-          <img
-            src={this.props.image[imageNum]}
-            alt="application screenshot"
-            // height={"70%"}
-            // width={"98%"}
-          />
+          <img src={this.props.image[imageNum]} alt="application screenshot" />
           <div className="prev-next">
             <button onClick={this.handlePrevImage}>
               <FontAwesomeIcon icon="chevron-left" size="lg" />

@@ -14,11 +14,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
   border-radius: 200px 200px 0 0;
   color: white;
   font-size: 24px;
+}
+
+.contact-div img {
+  width: 180px;
+  border: 2px solid #ededed;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+.contact-div a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-div a:hover {
+  font-weight: 600;
+  font-size: 30px;
+  color: rgb(189, 89, 52);
+}
+
+.contact-pic-text {
+  display: flex;
+  flex-direction: row;
 }
 
 .contact-list {
@@ -38,7 +61,7 @@
 }
 
 .contact-list a:hover {
-  color: rgb(181, 133, 78);
+  color: rgb(189, 89, 52);
   font-size: 50px;
 }
 
@@ -53,5 +76,19 @@
 
   .contact-div {
     border-radius: 0;
+  }
+
+  .contact-pic-text {
+    width: 80vw;
+    max-width: 660px;
+    justify-content: space-between;
+  }
+
+  .contact-div img {
+    width: 250px;
+  }
+
+  .contact-text a {
+    align-self: center;
   }
 }

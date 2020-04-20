@@ -22,7 +22,7 @@ class Spanimal extends Component {
   render() {
     const { slideshow } = this.state;
     return (
-      <section className="spanimal-section snap">
+      <section id="spanimals-section" className="spanimal-section snap">
         {slideshow && (
           <Slides
             slideshow={this.handlesSlideshow}
@@ -51,9 +51,15 @@ class Spanimal extends Component {
           </p>
         </div>
         <div className="spanimal-circle">
-          <button onClick={this.handlesSlideshow}>
-            {!slideshow && <img src={Logo} alt="spanimal logo" />}
-          </button>
+          <div className="spanimals-logo-arrows">
+            <a href="#linus-section">
+              <FontAwesomeIcon icon="chevron-left" size="lg" />
+            </a>
+            <button onClick={this.handlesSlideshow}>
+              {!slideshow && <img src={Logo} alt="spanimals logo" />}
+            </button>
+            <div></div>
+          </div>
           <p>
             A Learning Language platform that teaches the Spanish translations
             for animals using the spaced-repetition technique. Users can
@@ -66,6 +72,14 @@ class Spanimal extends Component {
           <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
           <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
           <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
+        </div>
+        <div className="extra-tech">
+          <ul>
+            <li>Express</li>
+            <li>Mocha</li>
+            <li>Chai</li>
+            <li>Cypress</li>
+          </ul>
         </div>
       </section>
     );

@@ -5,7 +5,7 @@
 
 .links a:hover {
   font-weight: 700;
-  color: rgb(181, 133, 78);
+  color: rgb(189, 89, 52);
 }
 
 .linus-section {
@@ -22,7 +22,7 @@
 }
 
 .linus-section h2 {
-  margin-top: 65px;
+  margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 5px;
   width: 75px;

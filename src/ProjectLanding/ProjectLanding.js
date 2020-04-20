@@ -3,14 +3,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./ProjectLanding.css";
 
 class ProjectLanding extends Component {
+  handleNext = () => {};
   render() {
     return (
-      <section className="project-landing-section snap">
+      <section
+        id="project-landing-section"
+        className="project-landing-section snap"
+      >
         <div className="project-landing-title">
+          <div></div>
           <div className="project-landing-circle">
             <h2>Projects</h2>
           </div>
-          <FontAwesomeIcon icon="chevron-right" size="lg" />
+          <a href="#qtrail-section">
+            <FontAwesomeIcon icon="chevron-right" size="lg" />
+          </a>
         </div>
       </section>
     );

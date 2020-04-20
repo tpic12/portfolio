@@ -52,9 +52,17 @@ class Qtrail extends Component {
           </p>
         </div>
         <div className="qtrail-circle">
-          <button onClick={this.handlesSlideshow}>
-            {!slideshow && <img src={Logo} alt="quaran trail - stay home" />}
-          </button>
+          <div className="logo-arrows">
+            <a href="#project-landing-section">
+              <FontAwesomeIcon icon="chevron-left" size="lg" />
+            </a>
+            <button onClick={this.handlesSlideshow}>
+              {!slideshow && <img src={Logo} alt="quaran trail - stay home" />}
+            </button>
+            <a href="#linus-section">
+              <FontAwesomeIcon icon="chevron-right" size="lg" />
+            </a>
+          </div>
           <p>
             In this playful and lighthearted game, the world was struck with an
             awful pandemic and the player has to stay indoors. The goal is to
@@ -67,6 +75,15 @@ class Qtrail extends Component {
           <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
           <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
           <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
+        </div>
+        <div className="extra-tech">
+          <ul>
+            <li>React Game Engine</li>
+            <li>Express</li>
+            <li>Mocha</li>
+            <li>Chai</li>
+            <li>Jest</li>
+          </ul>
         </div>
       </section>
     );

@@ -74,13 +74,26 @@
 
 #menuToggle a {
   text-decoration: none;
-  color: rgb(62, 72, 117);
+  color: #ededed;
 
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover {
-  color: #ededed;
+  /* text-shadow: 4px 10px 10px black; */
+  animation: offPage 0.2s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes offPage {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+    text-shadow: 4px 10px 15px black;
+  }
 }
 
 #menuToggle input {
@@ -148,7 +161,7 @@
   flex-direction: column;
   justify-content: center;
 
-  background: rgb(181, 133, 78);
+  background: rgb(189, 89, 52);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */

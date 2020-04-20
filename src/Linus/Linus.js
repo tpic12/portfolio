@@ -51,9 +51,17 @@ class Linus extends Component {
           </p>
         </div>
         <div className="linus-circle">
-          <button onClick={this.handlesSlideshow}>
-            {!slideshow && <img src={Logo} alt="linus logo" />}
-          </button>
+          <div className="logo-arrows">
+            <a href="#qtrail-section">
+              <FontAwesomeIcon icon="chevron-left" size="lg" />
+            </a>
+            <button onClick={this.handlesSlideshow}>
+              {!slideshow && <img src={Logo} alt="linus-logo" />}
+            </button>
+            <a href="#spanimals-section">
+              <FontAwesomeIcon icon="chevron-right" size="lg" />
+            </a>
+          </div>
           <p>
             Linus is a personal bartender for your home. With Linus you can add
             your favorite and current spirits in the liquor cabinet to your
@@ -68,6 +76,14 @@ class Linus extends Component {
           <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
           <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
           <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
+        </div>
+        <div className="extra-tech">
+          <ul>
+            <li>Express</li>
+            <li>Mocha</li>
+            <li>Chai</li>
+            <li>Jest</li>
+          </ul>
         </div>
       </section>
     );

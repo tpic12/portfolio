@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Pic from "../Images/aboutme.jpg";
 import "./About.css";
 
 class About extends Component {
@@ -26,7 +27,7 @@ class About extends Component {
             Taylor v4.0 view.
           </p>
           <div className="about-circle">
-            <span className="pic">picture of me here</span>
+            <img src={Pic} className="pic" alt="taylor" />
           </div>
         </div>
       </section>

@@ -3,6 +3,20 @@
   src: local("PixelFont"), url("../Fonts/PixelFont.ttf") format("truetype");
 }
 
+.extra-tech ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.extra-tech ul li {
+  border: 1px solid rgb(62, 72, 117);
+  border-radius: 3px;
+  padding: 4px;
+  margin: 2px 6px;
+}
+
 .links a {
   text-decoration: none;
   color: rgb(62, 72, 117);
@@ -10,7 +24,7 @@
 
 .links a:hover {
   font-weight: 700;
-  color: rgb(181, 133, 78);
+  color: rgb(189, 89, 52);
 }
 
 .qtrail-section {
@@ -27,9 +41,22 @@
 }
 
 .qtrail-section h2 {
-  padding-top: 65px;
+  padding-top: 100px;
   font-family: "PixelFont";
   margin-bottom: 0;
+}
+
+.logo-arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+.logo-arrows a {
+  text-decoration: none;
+  color: #ededed;
 }
 
 .links p {
