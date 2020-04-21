@@ -20,11 +20,11 @@ class About extends Component {
             different parts to my computer to rock climbing. Looking at
             something and figuring out how to accomplish what looks impossible
             drives me to try, and then when it gets done, to do it better. When
-            a good challenge comes along I pride my self on my adaptability,
+            a good challenge comes along, I pride my self on my adaptability,
             being in numerous work industries (hospitality, to Wall Street, to
-            Development) I have learned to take skills learned and apply them in
-            non-conventional ways, to view a problem from my point of view, the
-            Taylor v4.0 view.
+            Development) I have learned to take skills acquired and apply them
+            in non-conventional ways, to view a problem from my point of view,
+            the Taylor v4.0 view.
           </p>
           <div className="about-circle">
             <img src={Pic} className="pic" alt="taylor" />
