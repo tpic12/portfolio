@@ -9,7 +9,7 @@ class Contact extends Component {
       <section id="contact-section" className="contact-section snap">
         <div className="contact-div">
           <div className="contact-pic-text">
-            <img src={Pic} alt="Taylor" />
+            {/* <img src={Pic} alt="Taylor" /> */}
             <div className="contact-text">
               <h3>
                 <span className="thin">It's dangerous to go alone! </span>

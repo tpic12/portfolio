@@ -9,20 +9,20 @@
   height: 100vh;
 }
 
-.about-circle {
+/* .about-circle {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-}
+} */
 
-.about-circle img {
-  height: 200px;
-  border-radius: 50%;
+.pic {
+  border-radius: 10px;
+  width: 200px;
+  border: 2px solid rgb(62, 72, 117);
 }
 
 .about-me {
@@ -38,7 +38,7 @@
 }
 
 .about-me p {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 @media screen and (min-width: 720px) {
@@ -49,13 +49,11 @@
   }
 
   .about-me p {
-    padding-top: 25px;
+    padding-top: 50px;
     font-size: 20px;
   }
 
-  .about-circle img,
-  .about-circle {
-    height: 300px;
+  .about-circle img {
     width: 300px
   }
 }
