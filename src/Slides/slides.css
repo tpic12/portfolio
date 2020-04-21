@@ -28,6 +28,16 @@
   border: 1px solid black;
   position: relative;
   max-height: 600px;
-  max-width: 98%;
+  max-width: 85%;
   /* z-index: auto; */
+}
+
+.prev-next {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.prev-next button {
+  align-self: center;
 }
