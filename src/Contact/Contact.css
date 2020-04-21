@@ -69,6 +69,10 @@
   color: white;
 }
 
+.contact-text {
+  text-align: center;
+}
+
 @media screen and (min-width: 720px) {
   .contact-section {
     align-items: center;
