@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Pic from "../Images/headshot.png";
 import "./Contact.css";
 
 class Contact extends Component {
@@ -8,22 +7,19 @@ class Contact extends Component {
     return (
       <section id="contact-section" className="contact-section snap">
         <div className="contact-div">
-          <div className="contact-pic-text">
-            {/* <img src={Pic} alt="Taylor" /> */}
-            <div className="contact-text">
-              <h3>
-                <span className="thin">It's dangerous to go alone! </span>
-                <br />
-                <span className="bold">Take this.</span>
-              </h3>
-              <a
-                href="https://taylorpiccarretoportfolio.s3.us-east-2.amazonaws.com/TaylorPiccarretoResume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-            </div>
+          <div className="contact-text">
+            <h3>
+              <span className="thin">It's dangerous to go alone! </span>
+              <br />
+              <span className="bold">Take this.</span>
+            </h3>
+            <a
+              href="https://taylorpiccarretoportfolio.s3.us-east-2.amazonaws.com/TaylorPiccarretoResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </div>
           <ul className="contact-list">
             <li>
