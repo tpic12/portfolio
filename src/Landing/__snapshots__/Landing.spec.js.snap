@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing /> renders by default 1`] = `
+<Fragment>
+  <section
+    className="landing-section snap"
+  >
+    <div
+      className="landing-div"
+    >
+      <div
+        className="name-tag-div"
+      >
+        <h1>
+          <span
+            className="thin"
+          >
+            Taylor
+          </span>
+          <br />
+          <span
+            className="bold"
+          >
+            Piccarreto
+          </span>
+        </h1>
+        <p>
+          Hi, I’m Taylor, and I like my applications like I like my pancakes: Fullstack and no bugs.
+        </p>
+      </div>
+      <div
+        className="landing-circle"
+      >
+        <span
+          className="logo"
+        >
+          {tP}
+        </span>
+      </div>
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon="chevron-down"
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size="lg"
+        spin={false}
+        swapOpacity={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </div>
+  </section>
+  <About />
+  <div
+    className="projects snap"
+    id="projects-section"
+  >
+    <ProjectLanding />
+    <Qtrail />
+    <Linus />
+    <Spanimal />
+  </div>
+  <Contact />
+</Fragment>
+`;

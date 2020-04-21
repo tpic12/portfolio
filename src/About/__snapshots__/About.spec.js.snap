@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing /> renders by default 1`] = `
+<section
+  className="about-section"
+  id="about-section"
+>
+  <div
+    className="about-me snap"
+  >
+    <p>
+       
+        A NYC transplant from upstate New York, I came here for a job on Wall Street, enjoyed life behind a bar more, and then decided said bar-life was no longer for me. Now, a recent graduate from Thinkful’s Engineering Immersion, I am looking to start a new career as a developer and professional bug taker-outer (digital-kind only).
+      <br />
+      <br />
+       I have always enjoyed solving problems, from how to add different parts to my computer to rock climbing. Looking at something and figuring out how to accomplish what looks impossible drives me to try, and then when it gets done, to do it better. When a good challenge comes along, I pride my self on my adaptability, being in numerous work industries (hospitality, to Wall Street, to Development) I have learned to take skills acquired and apply them in non-conventional ways, to view a problem from my point of view, the Taylor v4.0 view.
+    </p>
+    <div
+      className="about-circle"
+    >
+      <img
+        alt="taylor"
+        className="pic"
+        src="headshot.png"
+      />
+    </div>
+  </div>
+</section>
+`;

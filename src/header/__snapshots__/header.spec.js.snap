@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing /> renders by default 1`] = `
+<nav
+  className="navbar navbar-hidden"
+  role="navigation"
+>
+  <div
+    id="menuToggle"
+  >
+    <input
+      checked={false}
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span />
+    <span />
+    <span />
+    <ul
+      id="menu"
+    >
+      <a
+        href="#about-section"
+        onClick={[Function]}
+      >
+        <li>
+          About
+        </li>
+      </a>
+      <a
+        href="#projects-section"
+        onClick={[Function]}
+      >
+        <li>
+          Projects
+        </li>
+      </a>
+      <a
+        href="#contact-section"
+        onClick={[Function]}
+      >
+        <li>
+          Contact
+        </li>
+      </a>
+    </ul>
+  </div>
+  <div
+    className="navbar--logo-holder white"
+  >
+    <h1>
+      {tP}
+    </h1>
+  </div>
+</nav>
+`;

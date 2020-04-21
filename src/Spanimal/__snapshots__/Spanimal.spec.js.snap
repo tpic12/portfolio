@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing /> renders by default 1`] = `
+<section
+  className="spanimal-section snap"
+  id="spanimals-section"
+>
+  <h2>
+    Spanimals
+  </h2>
+  <div
+    className="links"
+  >
+    <p>
+       
+      <a
+        href="https://spanimal.now.sh/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Live Link
+      </a>
+       
+      |
+       
+      <a
+        href="https://github.com/tpic12/spanimal-client"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        GitHub
+      </a>
+    </p>
+  </div>
+  <div
+    className="spanimal-circle"
+  >
+    <div
+      className="spanimals-logo-arrows"
+    >
+      <a
+        href="#linus-section"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="chevron-left"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="lg"
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </a>
+      <button
+        onClick={[Function]}
+      >
+        <img
+          alt="spanimals logo"
+          src="spanimal-logo.png"
+        />
+      </button>
+      <div />
+    </div>
+    <p>
+      A Learning Language platform that teaches the Spanish translations for animals using the spaced-repetition technique. Users can sign-up, start learning and keep track of their scores per word, and across the language.
+    </p>
+  </div>
+  <div
+    className="tech-logos"
+  >
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Array [
+          "fab",
+          "react",
+        ]
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="2x"
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Array [
+          "fab",
+          "css3",
+        ]
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="2x"
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Array [
+          "fab",
+          "node-js",
+        ]
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="2x"
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Array [
+          "fas",
+          "database",
+        ]
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="2x"
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </div>
+  <div
+    className="extra-tech"
+  >
+    <ul>
+      <li>
+        Express
+      </li>
+      <li>
+        Mocha
+      </li>
+      <li>
+        Chai
+      </li>
+      <li>
+        Cypress
+      </li>
+    </ul>
+  </div>
+</section>
+`;

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing /> renders by default 1`] = `
+<section
+  className="contact-section snap"
+  id="contact-section"
+>
+  <div
+    className="contact-div"
+  >
+    <div
+      className="contact-text"
+    >
+      <h3>
+        <span
+          className="thin"
+        >
+          It's dangerous to go alone! 
+        </span>
+        <br />
+        <span
+          className="bold"
+        >
+          Take this.
+        </span>
+      </h3>
+      <a
+        href="https://taylorpiccarretoportfolio.s3.us-east-2.amazonaws.com/TaylorPiccarretoResume.pdf"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Resume
+      </a>
+    </div>
+    <ul
+      className="contact-list"
+    >
+      <li>
+        <a
+          href="https://www.linkedin.com/in/taylor-piccarreto/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Array [
+                "fab",
+                "linkedin",
+              ]
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="mailto:tpic12@gmail.com"
+        >
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon="at"
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/tpic12"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Array [
+                "fab",
+                "github",
+              ]
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+`;
