@@ -9,7 +9,7 @@
 }
 
 .spanimal-section {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   background-color: white;
   color: rgb(62, 72, 117);

@@ -28,7 +28,7 @@
 }
 
 .qtrail-section {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   background-color: white;
   color: rgb(62, 72, 117);
@@ -113,24 +113,8 @@
   }
 }
 
-/* .tech-stack h3 {
-  column-span: all;
-  margin-bottom: 0;
+@media screen and (min-width: 720px) {
+  .test {
+    max-width: 900px;
+  }
 }
-
-.tech-stack {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.tech-stack-list {
-  columns: 2 30vw;
-  column-gap: normal;
-  column-rule: thin solid rgb(62, 72, 117);
-  list-style-type: none;
-  border-left: thin solid rgb(62, 72, 117);
-  padding-left: 10px;
-} */
-
-/*rgb(168, 123, 72) -- gold*/
