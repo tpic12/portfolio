@@ -92,6 +92,10 @@
     width: 250px;
   }
 
+  .contact-text {
+    font-size: 32px;
+  }
+
   .contact-text a {
     align-self: center;
   }

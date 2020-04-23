@@ -22,13 +22,11 @@
 }
 
 .linus-section h2 {
-  margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 5px;
   width: 75px;
   text-align: center;
   font-family: 'Josefin Slab', serif;
-  margin-bottom: 0;
   border-top: 1px solid rgb(62, 72, 117);
   border-bottom: 1px solid rgb(62, 72, 117);
   border-radius: 5px;
@@ -43,7 +41,7 @@
   height: 375px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   border: 7px solid #ededed;
   border-radius: 200px;
@@ -51,7 +49,7 @@
   background-color: rgb(62, 72, 117);
   color: white;
   text-align: center;
-  padding: 0 30px;
+  padding: 10px 35px;
 }
 
 .linus-circle button {
@@ -60,11 +58,16 @@
   cursor: pointer;
 }
 
+.linus-circle button:hover {
+  box-shadow: 0px 0px 15px #ededed;
+  border-radius: 10px;
+}
+
 .linus-circle img {
   width: 100px;
   background-color: white;
   border-radius: 50%;
-  animation: pulse 2s linear;
+  animation: pulse 1s linear;
   animation-iteration-count: infinite;
 }
 
@@ -73,4 +76,23 @@
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
+}
+
+@media screen and (min-width: 500px) {
+  .linus-circle {
+    font-size: 20px;
+  }
+
+  .linus-section h2 {
+    font-size: 30px;
+    border-top: 2px solid rgb(62, 72, 117);
+    border-bottom: 2px solid rgb(62, 72, 117);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .linus-circle {
+    max-width: 900px;
+    font-size: 24px;
+  }
 }

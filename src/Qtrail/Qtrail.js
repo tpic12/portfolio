@@ -31,59 +31,64 @@ class Qtrail extends Component {
             image={this.state.imageArr}
           />
         )}
-        <h2>QuaranTrail</h2>
-        <div className="links">
-          <p>
-            <a
-              href="https://quarantrail.now.sh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Link
-            </a>{" "}
-            |{" "}
-            <a
-              href="https://github.com/tpic12/Quarantrail-client"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-        </div>
-        <div className="qtrail-circle">
+        <div className="project-content">
           <div className="logo-arrows">
             <a href="#project-landing-section">
               <FontAwesomeIcon icon="chevron-left" size="lg" />
             </a>
-            <button onClick={this.handlesSlideshow}>
-              {!slideshow && <img src={Logo} alt="quaran trail - stay home" />}
-            </button>
+            <h2>Quarantrail</h2>
             <a href="#linus-section">
               <FontAwesomeIcon icon="chevron-right" size="lg" />
             </a>
           </div>
-          <p>
-            In this playful and lighthearted game, the world was struck with an
-            awful pandemic and the player has to stay indoors. The goal is to
-            practice social distancing and self quarantine while keeping one's
-            boredom and infection level bar low for as many days as possible.
-          </p>
-        </div>
-        <div className="tech-logos">
-          <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
-          <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
-          <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
-          <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
-        </div>
-        <div className="extra-tech">
-          <ul>
-            <li>React Game Engine</li>
-            <li>Express</li>
-            <li>Mocha</li>
-            <li>Chai</li>
-            <li>Jest</li>
-          </ul>
+          <div className="links">
+            <p>
+              <a
+                href="https://quarantrail.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Link
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://github.com/tpic12/Quarantrail-client"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </p>
+          </div>
+          <div className="qtrail-circle">
+            <button onClick={this.handlesSlideshow}>
+              {!slideshow && <img src={Logo} alt="quaran trail - stay home" />}
+            </button>
+
+            <p>
+              In this playful and lighthearted game, the world was struck with
+              an awful pandemic and the player has to stay indoors. The player
+              needs to balance their stock of supplies, along with their boredom
+              and chance of infection. I made this game to try to add some fun
+              and joy when forced to stay inside, with my inspiration coming
+              from the worlds current situation, and my love of video games.
+            </p>
+          </div>
+          <div className="tech-logos">
+            <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
+            <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
+            <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
+            <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
+          </div>
+          <div className="extra-tech">
+            <ul>
+              <li>React Game Engine</li>
+              <li>Express</li>
+              <li>Mocha</li>
+              <li>Chai</li>
+              <li>Jest</li>
+            </ul>
+          </div>
         </div>
       </section>
     );

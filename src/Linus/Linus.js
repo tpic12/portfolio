@@ -30,60 +30,64 @@ class Linus extends Component {
             image={this.state.imageArr}
           />
         )}
-        <h2>Linus</h2>
-        <div className="links">
-          <p>
-            <a
-              href="https://linus-ten.now.sh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Link
-            </a>{" "}
-            |{" "}
-            <a
-              href="https://github.com/tpic12/Linus-Client"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-        </div>
-        <div className="linus-circle">
+        <div className="project-content">
           <div className="logo-arrows">
             <a href="#qtrail-section">
               <FontAwesomeIcon icon="chevron-left" size="lg" />
             </a>
-            <button onClick={this.handlesSlideshow}>
-              {!slideshow && <img src={Logo} alt="linus-logo" />}
-            </button>
+            <h2>Linus</h2>
             <a href="#spanimals-section">
               <FontAwesomeIcon icon="chevron-right" size="lg" />
             </a>
           </div>
-          <p>
-            Linus is a personal bartender for your home. With Linus you can add
-            your favorite and current spirits in the liquor cabinet to your
-            digital cabinet, and Linus will show you what cocktails you can make
-            with your spirits and how! You will also be able to search for
-            recipes by spirit type and make a shortlist of your favorite ones to
-            try later.
-          </p>
-        </div>
-        <div className="tech-logos">
-          <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
-          <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
-          <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
-          <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
-        </div>
-        <div className="extra-tech">
-          <ul>
-            <li>Express</li>
-            <li>Mocha</li>
-            <li>Chai</li>
-            <li>Jest</li>
-          </ul>
+          <div className="links">
+            <p>
+              <a
+                href="https://linus-ten.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Link
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://github.com/tpic12/Linus-Client"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </p>
+          </div>
+          <div className="linus-circle">
+            <button onClick={this.handlesSlideshow}>
+              {!slideshow && <img src={Logo} alt="linus-logo" />}
+            </button>
+
+            <p>
+              This is Linus, and Linus can tell you what to make from spirits in
+              your liquor cabinet! A personal bartender of sorts, after adding
+              your spirits into Linus, he will show you some cocktails to that
+              you can make at home. This app is for the person that likes to
+              have a nice cocktail after work, or even an aspiring mad men. As a
+              former bartender I love making drinks at home and wanted to share
+              how easy and fun it is.
+            </p>
+          </div>
+          <div className="tech-logos">
+            <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
+            <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
+            <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
+            <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
+          </div>
+          <div className="extra-tech">
+            <ul>
+              <li>Express</li>
+              <li>Mocha</li>
+              <li>Chai</li>
+              <li>Jest</li>
+            </ul>
+          </div>
         </div>
       </section>
     );

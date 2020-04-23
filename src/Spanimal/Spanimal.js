@@ -29,57 +29,62 @@ class Spanimal extends Component {
             image={this.state.imageArr}
           />
         )}
-        <h2>Spanimals</h2>
-        <div className="links">
-          <p>
-            {" "}
-            <a
-              href="https://spanimal.now.sh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Link
-            </a>{" "}
-            |{" "}
-            <a
-              href="https://github.com/tpic12/spanimal-client"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-        </div>
-        <div className="spanimal-circle">
+        <div className="project-content">
           <div className="spanimals-logo-arrows">
             <a href="#linus-section">
               <FontAwesomeIcon icon="chevron-left" size="lg" />
             </a>
+            <h2>Spanimals</h2>
+            <div></div>
+          </div>
+          <div className="links">
+            <p>
+              {" "}
+              <a
+                href="https://spanimal.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Link
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://github.com/tpic12/spanimal-client"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </p>
+          </div>
+          <div className="spanimal-circle">
             <button onClick={this.handlesSlideshow}>
               {!slideshow && <img src={Logo} alt="spanimals logo" />}
             </button>
-            <div></div>
+
+            <p>
+              Spanimals is a language learning application that utilizes the
+              spaced repetition technique. Specifically designed to learn the
+              Spanish translations for animals, Spanimals was made for an intro
+              learner to the language. This was inspired from other language
+              learning app like Duolingo and Memrise, but with more of a niche
+              role in the arena.
+            </p>
           </div>
-          <p>
-            A Learning Language platform that teaches the Spanish translations
-            for animals using the spaced-repetition technique. Users can
-            sign-up, start learning and keep track of their scores per word, and
-            across the language.
-          </p>
-        </div>
-        <div className="tech-logos">
-          <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
-          <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
-          <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
-          <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
-        </div>
-        <div className="extra-tech">
-          <ul>
-            <li>Express</li>
-            <li>Mocha</li>
-            <li>Chai</li>
-            <li>Cypress</li>
-          </ul>
+          <div className="tech-logos">
+            <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
+            <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
+            <FontAwesomeIcon icon={["fab", "node-js"]} size="2x" />
+            <FontAwesomeIcon icon={["fas", "database"]} size="2x" />
+          </div>
+          <div className="extra-tech">
+            <ul>
+              <li>Express</li>
+              <li>Mocha</li>
+              <li>Chai</li>
+              <li>Cypress</li>
+            </ul>
+          </div>
         </div>
       </section>
     );

@@ -10,14 +10,16 @@ class ProjectLanding extends Component {
         id="project-landing-section"
         className="project-landing-section snap"
       >
-        <div className="project-landing-title">
-          <div></div>
-          <div className="project-landing-circle">
-            <h2>Projects</h2>
+        <div className="project-content">
+          <div className="project-landing-title">
+            <div></div>
+            <div className="project-landing-circle">
+              <h2>Projects</h2>
+            </div>
+            <a href="#qtrail-section">
+              <FontAwesomeIcon icon="chevron-right" size="lg" />
+            </a>
           </div>
-          <a href="#qtrail-section">
-            <FontAwesomeIcon icon="chevron-right" size="lg" />
-          </a>
         </div>
       </section>
     );
