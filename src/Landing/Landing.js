@@ -24,8 +24,8 @@ const Landing = ({ stickyRef }) => {
                 <span className="bold">Piccarreto</span>
               </h1>
               <p>
-                Hi, I’m Taylor, and I like my applications like I like my
-                pancakes: Fullstack and no bugs.
+                I like my applications like I like my pancakes: Fullstack and no
+                bugs.
               </p>
             </div>
             <div className="landing-circle">

@@ -66,8 +66,8 @@ class Spanimal extends Component {
               Spanimals is a language learning application that utilizes the
               spaced repetition technique. Specifically designed to learn the
               Spanish translations for animals, Spanimals was made for an intro
-              learner to the language. This was inspired from other language
-              learning app like Duolingo and Memrise, but with more of a niche
+              learner to the language. This was inspired by other language
+              learning apps like Duolingo and Memrise, but with more of a niche
               role in the arena.
             </p>
           </div>

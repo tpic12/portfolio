@@ -8,6 +8,9 @@ class About extends Component {
       <section id="about-section" className="about-section snap">
         <div className="header-space"></div>
         <div className="about-me">
+          <div className="about-circle">
+            <img src={Pic} className="pic" alt="taylor" />
+          </div>
           <p>
             {" "}
             &emsp; A NYC transplant from upstate New York, I came here for a job
@@ -34,9 +37,6 @@ class About extends Component {
             and apply them in non-conventional ways, to view a problem from my
             point of view, the Taylor v4.0 view.
           </p>
-          <div className="about-circle">
-            <img src={Pic} className="pic" alt="taylor" />
-          </div>
         </div>
       </section>
     );

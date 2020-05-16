@@ -106,6 +106,14 @@
     padding: 0 20px;
     margin: 0 10px;
   }
+
+  .name-tag-div p {
+    max-width: 380px;
+  }
+
+  .name-tag-div h1 {
+    font-size: 60px;
+  }
 }
 
 @media screen and (min-width: 950px) {
