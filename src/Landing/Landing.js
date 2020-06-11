@@ -32,7 +32,9 @@ const Landing = ({ stickyRef }) => {
               <span className="logo">{logo()}</span>
             </div>
           </div>
-          <FontAwesomeIcon icon="chevron-down" size="lg" />
+          <a href="#about-section">
+            <FontAwesomeIcon icon="chevron-down" size="lg" />
+          </a>
         </div>
       </section>
       <About />

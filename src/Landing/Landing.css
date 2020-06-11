@@ -30,13 +30,16 @@
   border-radius: 0 0 200px 200px;
 }
 
+.landing-div a {
+  align-self: center;
+}
+
 .landing-div svg {
   position: relative;
   top: 130px;
   color: rgb(62, 72, 117);
   animation: bounce 3s ease-out;
   animation-iteration-count: infinite;
-  align-self: center;
 }
 
 .landing-circle {
