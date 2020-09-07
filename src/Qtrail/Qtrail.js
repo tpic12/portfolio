@@ -33,7 +33,7 @@ class Qtrail extends Component {
         )}
         <div className="project-content">
           <div className="logo-arrows">
-            <a href="#project-landing-section">
+            <a href="#handler-section">
               <FontAwesomeIcon icon="chevron-left" size="lg" />
             </a>
             <h2>Quarantrail</h2>

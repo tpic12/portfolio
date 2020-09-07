@@ -31,7 +31,8 @@ body {
 
 .linus-section,
 .spanimal-section,
-.qtrail-section {
+.qtrail-section,
+.handler-section {
   padding-top: 50px;
   background-color: #ededed;
 }

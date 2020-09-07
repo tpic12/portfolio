@@ -2,6 +2,7 @@ import React from "react";
 import ProjectLinus from "../Linus/Linus";
 import ProjectSpanimal from "../Spanimal/Spanimal";
 import ProjectQtrail from "../Qtrail/Qtrail";
+import ProjectHandler from "../Handler/handler";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import ProjectLanding from "../ProjectLanding/ProjectLanding";
@@ -40,6 +41,7 @@ const Landing = ({ stickyRef }) => {
       <About />
       <div id="projects-section" className="projects snap">
         <ProjectLanding />
+        <ProjectHandler />
         <ProjectQtrail />
         <ProjectLinus />
         <ProjectSpanimal />

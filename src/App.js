@@ -10,6 +10,7 @@ import {
   faReact,
   faNodeJs,
   faCss3,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faAt,
@@ -32,7 +33,8 @@ library.add(
   faReact,
   faNodeJs,
   faCss3,
-  faTimesCircle
+  faTimesCircle,
+  faDiscord
 );
 
 function App() {

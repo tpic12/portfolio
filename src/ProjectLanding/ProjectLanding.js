@@ -16,7 +16,7 @@ class ProjectLanding extends Component {
             <div className="project-landing-circle">
               <h2>Projects</h2>
             </div>
-            <a href="#qtrail-section">
+            <a href="#handler-section">
               <FontAwesomeIcon icon="chevron-right" size="lg" />
             </a>
           </div>
